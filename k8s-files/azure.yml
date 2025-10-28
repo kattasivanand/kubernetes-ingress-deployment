@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
         - name: azure
-          image: veera/azure
+          image: 203171087948.dkr.ecr.us-east-1.amazonaws.com/azure:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 80
